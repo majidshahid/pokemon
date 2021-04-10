@@ -1,0 +1,119 @@
+.nav{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(196, 196, 196);
+    margin-top: 0%;
+}
+.nav ul li{
+    display:inline;
+    justify-content: space-between;
+}
+.nav ul {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.one{
+    padding-bottom: 5px;
+}
+.nav2{
+    width: 100%;
+    height: 30%;
+    /* position: fixed;
+    top: 0%; */
+
+}
+.nav2 ul li{
+    display:inline;
+    justify-content: space-between;
+    
+}
+.nav2 ul {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.nav2 ul li:hover{
+   background-color: brown;
+    
+}
+ button{
+    position: fixed;
+}
+
+.content{
+    width: 95%;
+    height: 50%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+   margin: 30px auto;
+   cursor: pointer;
+   
+}
+.one1{
+    width: 45.5%;
+    height: 100%;
+    margin-left:10;
+    justify-content: flex-start;
+    border: 2px solid gray;
+    
+}
+.two2{
+    width: 30%;
+    height: 100%;
+    justify-content: flex-end;
+    padding-left:-300px ;
+    flex-direction: column;
+
+}
+.card1{
+    background-color: greenyellow;
+}
+.card2{
+    background-color: rgb(40, 107, 138);
+}
+.new{
+    width: 100%;
+    position: relative;
+}
+.pokemon{
+    width: 100%;
+    height: 70%;
+    background-color: rgb(242, 242, 242);
+}
+.pokemon h3{
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 40px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+    background-color: rgb(48, 45, 45);
+    padding-top: 30px;
+
+}
+.f1{
+    list-style:decimal;
+}
+.f1 ul li{
+    line-height: 30px;
+    font-weight: bolder;
+    color: rgb(179, 177, 177);
+}
+.f1 ul li:hover{
+    color: white;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
